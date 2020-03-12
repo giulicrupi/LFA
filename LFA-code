@@ -1,0 +1,29 @@
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+
+  var moeda = prompt("Coloque sua moeda");
+  
+
+  if (moeda != 0.25 && moeda != 0.10 ) {
+  	alert("Só aceitamos moedas de $0.25 e $0.10");
+  }else if(moeda == 0.25 || moeda == 0.10){
+  	while(total < 0.45){
+      var i;
+  		 moeda = prompt("Coloque sua moeda");
+  		var total = parseFloat(moeda) +  parseFloat(moeda);
+  		
+  
+  		
+
+  	}
+    if(total >= 0.45){
+      alert("coca cola");   
+       }
+  }
+
+}
+</script>
